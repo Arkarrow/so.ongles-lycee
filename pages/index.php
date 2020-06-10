@@ -1,8 +1,8 @@
 <head>
     <title>So.Ongles - Prothésiste ongulaire confirmée à Lambézellec</title>
-    <?php require 'HEAD.php'; ?>
+    <?php require '../includes/head.php'; ?>
 </head>
-<?= require 'components/NavBar.php'; ?>
+<?= require '../components/NavBar.php'; ?>
 
 <body>
     <section style="width:100%;background:rgb(255, 197, 197, 0.5);margin-top:30px">
@@ -468,4 +468,4 @@
 
 <?php
 
-require 'components/Footer.php';
+require '../components/Footer.php';
